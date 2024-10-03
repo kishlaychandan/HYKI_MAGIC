@@ -1,7 +1,6 @@
 import HeroBanner from "@/components/HeroBanner";
 import ProductCard from "@/components/ProductCard";
 import Wrapper from "@/components/Wrapper";
-import { fetchDataFromApi } from "@/utils/api";
 import { data } from "@/utils/apidata";
 import Link from "next/link";
 
@@ -75,12 +74,4 @@ export default function Home({ products }) {
       </Wrapper>
     </main>
   );
-}
-
-export async function getStaticProps() {
-  const products = await fetchDataFromApi("/catalog");
-
-  return {
-    props: { products },
-  };
 }

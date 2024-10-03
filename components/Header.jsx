@@ -9,8 +9,6 @@ import { IoMdHeartEmpty, IoMdMoon, IoMdSunny } from "react-icons/io";
 import { BsCart } from "react-icons/bs";
 import { BiMenuAltRight } from "react-icons/bi";
 import { VscChromeClose } from "react-icons/vsc";
-import { fetchDataFromApi } from "@/utils/api";
-import { useSelector } from "react-redux";
 
 const Header = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -20,7 +18,6 @@ const Header = () => {
   const { systemTheme, theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { cartItems } = useSelector((state) => state.cart);
 
   const controlNavbar = () => {
     if (window.scrollY > 200) {
@@ -42,18 +39,12 @@ const Header = () => {
     };
   }, [lastScrollY]);
 
-  useEffect(() => {
-    fetchCategories();
-  }, []);
+  
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
-  const fetchCategories = async () => {
-    const { data } = await fetchDataFromApi("/api/categories?populate=*");
-    setCategories(data);
-  };
 
   const renderThemeChanger = () => {
     if (!mounted) return null;
