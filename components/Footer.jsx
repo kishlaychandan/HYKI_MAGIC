@@ -81,7 +81,6 @@ const Footer = () => {
           >
             <FaInstagram size={20} />
           </Link>
-          =
         </div>
         {/* RIGHT END */}
       </Wrapper>
