@@ -1,561 +1,494 @@
 export const data = [
   {
-    id: "1ae9450c-3673-4e47-9150-dee4356d8ccc",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Jasmine Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing jasmine fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Jasmine Fragrance: Fills your home with a sweet, floral scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural jasmine fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Jasmine",
+    id: '1ae9450c-3673-4e47-9150-dee4356d8ccc',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Jasmine Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing jasmine fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Jasmine Fragrance: Fills your home with a sweet, floral scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural jasmine fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      '\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Jasmine',
     weight: 0.25,
     price: 359,
     discountedPrice: 320,
     discountPercent: 11,
     images: [
-      "IMAGE/38336143-7838-4e9e-8fe2-c46396e28fec/bulMkX-2HjINrwMfiH209",
-      "IMAGE/aea4a2bb-d97a-48cd-b7aa-34d7c1bfa7ac/sap4p9-5bbk8Lhbqzb8mI",
+      'IMAGE/85414666-0604-4283-95d1-9ed6c02a8764/LAHv6LLNHeu2l6EutMr3Y',
+      'IMAGE/d6c1ce1b-bd4e-46c6-b40d-671f9b93b6fb/FD5BwmXh7-PfRr0x7y3Pv',
+      'IMAGE/2c6bc2c9-a8c7-4c1b-918c-bfd2fb1c48c1/aYAaKoMJJZBCAG7QVMIBr'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
     active: true,
     inStock: true,
     createdAt: 1726831278,
-    updatedAt: 1726900181,
-    storeBadges: [],
+    updatedAt: 1727763951,
+    storeBadges: []
   },
   {
-    id: "2d5edb60-06fb-468a-93e0-cbe36464542a",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lavender Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lavender fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Lavender Fragrance: Fills your home with a calming, floral scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural lavender fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Lavender",
+    id: '2d5edb60-06fb-468a-93e0-cbe36464542a',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lavender Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lavender fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Lavender Fragrance: Fills your home with a calming, floral scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural lavender fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Lavender',
     weight: 0.25,
     price: 359,
     discountedPrice: 320,
     discountPercent: 11,
     images: [
-      "IMAGE/6bfe6a94-2fbe-4a9a-a087-66f5f11a6b05/knZTGW2Z5xPH3VzEq8tbl",
-      "IMAGE/9c627f2a-7a80-4a40-b884-a50ae2849162/Du6H6GPcr3jGhR832DaW0",
+      'IMAGE/49e7558e-b77b-49a2-aaf5-767ea910fe9c/x3h2tBCWJUJz48Mrbv8sg',
+      'IMAGE/d3a6a45f-6cd3-46f1-baee-738e3657b931/BQUSSHE0UQn5X13yE6Lsz',
+      'IMAGE/6f336422-9da9-444c-9ee2-edc2e954b3e9/YU0nsi0evmUKigClgvPUm'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
-    variantDetails: {
-      options: [
-        {
-          name: "Weight/Volume",
-          displayName: "Weights & Volumes",
-          values: ["250g"],
-        },
-        {
-          name: "Fragrances",
-          displayName: "Fragrance Varieties",
-          values: ["Lavender"],
-        },
-      ],
-      variants: [
-        {
-          id: "7b0e92c8-53ae-4211-a411-b7d0ef92e89a",
-          skuId: "HYKI0010",
-          price: 359,
-          discountedPrice: 320,
-          discountPercent: 11,
-          available: true,
-          imageIds: [
-            "IMAGE/d455866c-1488-4673-be06-30e016fde98a/zkmsVn-k0EfCVGLGfGwfg",
-            "IMAGE/1d44df3f-b94d-49f9-b1ba-9b4513373c56/z5KLwxO3pdWkEC2KBzzgz",
-          ],
-          mediaIds: [
-            "IMAGE/d455866c-1488-4673-be06-30e016fde98a/zkmsVn-k0EfCVGLGfGwfg",
-            "IMAGE/1d44df3f-b94d-49f9-b1ba-9b4513373c56/z5KLwxO3pdWkEC2KBzzgz",
-          ],
-          defaultVariant: true,
-          optionValueMap: {
-            "Weight/Volume": "250g",
-            Fragrances: "Lavender",
-          },
-        },
-      ],
-    },
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
+    variantDetails: { options: [Array], variants: [Array] },
     active: true,
     inStock: true,
     createdAt: 1713977520,
-    updatedAt: 1726899987,
+    updatedAt: 1727763732,
     storeBadges: [],
     keyDetails: [],
-    confirmationMessage: "",
+    confirmationMessage: ''
   },
   {
-    id: "380eab0f-38e7-402d-aa9d-cd5f93ac5582",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Sandalwood Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a soothing sandalwood fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nSoothing Sandalwood Fragrance: Fills your home with a warm, earthy scent that lingers and calms.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural sandalwood fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\n\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Sandalwood",
+    id: '380eab0f-38e7-402d-aa9d-cd5f93ac5582',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Sandalwood Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a soothing sandalwood fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Soothing Sandalwood Fragrance: Fills your home with a warm, earthy scent that lingers and calms.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural sandalwood fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      '\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Sandalwood',
     weight: 0.25,
     price: 359,
     discountedPrice: 320,
     discountPercent: 11,
     images: [
-      "IMAGE/3c122731-dc68-4224-aefa-c96639eda8bb/knx3Ni9AQLNrlxM9FoEkD",
-      "IMAGE/2dcb3bcc-970f-4d2d-b08a-f0fc8c4ab0a0/yIKOyNH-XN-6V4bHSlsPu",
+      'IMAGE/ff1bb084-186d-4813-92a2-a582ad6f0d55/dEeMwBsLifHWV3za0XxLd',
+      'IMAGE/0eed79de-81ae-4d8c-9a0c-3ca121a4b255/t3e9NSdtjITA9LUeP-vSM',
+      'IMAGE/c7369cec-d666-4bce-a464-fdcb7acaa77a/26Ki4KIdhTtLk-uEeO43p'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
     active: true,
     inStock: true,
     createdAt: 1726831199,
-    updatedAt: 1726900145,
-    storeBadges: [],
+    updatedAt: 1727763899,
+    storeBadges: []
   },
   {
-    id: "414b0c65-8458-4a15-945b-9fb8de8afe7c",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lavender Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lavender fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Lavender Fragrance: Fills your home with a calming, floral scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural lavender fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Lavender",
+    id: '414b0c65-8458-4a15-945b-9fb8de8afe7c',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lavender Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lavender fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Lavender Fragrance: Fills your home with a calming, floral scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural lavender fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Lavender',
     weight: 0.1,
     price: 159,
     discountedPrice: 150,
     discountPercent: 6,
     images: [
-      "IMAGE/b044f7c3-ef5e-4343-94c0-e78274191620/ou8cLiINn4xA56quk9q14",
-      "IMAGE/110b54a3-9638-4682-a775-13f19a246077/W5TjoCY9Q30cJccR7faDo",
+      'IMAGE/ae04b17a-1e30-4c9d-a79f-bd3bc410f637/WHlWh8MaHxA0AbIzb7PLn',
+      'IMAGE/64aac017-130c-428d-b23d-795d76450ce8/-Ih0A8RhbOKdmR8pwkuek',
+      'IMAGE/bbf7d160-cdaf-49d9-b715-db7d420dc3db/C4igl83W-KVm1AEfZ8wla'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
-    variantDetails: {
-      options: [
-        {
-          name: "Weight/Volume",
-          displayName: "Weights & Volumes",
-          values: ["100ml", "250ml"],
-        },
-        {
-          name: "Fragrances",
-          displayName: "Fragrance Varieties",
-          values: ["Lavender"],
-        },
-      ],
-      variants: [
-        {
-          id: "6ae00ba6-9bec-4b54-adfa-34bf1f20d9a2",
-          skuId: "",
-          price: 159,
-          discountedPrice: 150,
-          discountPercent: 6,
-          available: true,
-          imageIds: [
-            "IMAGE/b6ac9d30-24b2-40f1-b56d-e5ce97dd67b4/1RYHlalg0aEfGd7-oxdnD",
-            "IMAGE/d4f50d95-b168-4cc3-92fe-8b39b1298d27/yUxjlOSwS6xxCtpuVdlcn",
-            "IMAGE/a4c3dd29-0e78-4075-8e23-7ee88c9aab2b/LieTwfKAGkev6lWoTFWVb",
-          ],
-          mediaIds: [
-            "IMAGE/b6ac9d30-24b2-40f1-b56d-e5ce97dd67b4/1RYHlalg0aEfGd7-oxdnD",
-            "IMAGE/d4f50d95-b168-4cc3-92fe-8b39b1298d27/yUxjlOSwS6xxCtpuVdlcn",
-            "IMAGE/a4c3dd29-0e78-4075-8e23-7ee88c9aab2b/LieTwfKAGkev6lWoTFWVb",
-          ],
-          defaultVariant: true,
-          optionValueMap: {
-            "Weight/Volume": "100ml",
-            Fragrances: "Lavender",
-          },
-        },
-        {
-          id: "fb891950-ab48-4a41-85c3-cfa446951e9e",
-          skuId: "",
-          price: 359,
-          discountedPrice: 320,
-          discountPercent: 11,
-          available: true,
-          defaultVariant: false,
-          optionValueMap: {
-            "Weight/Volume": "250ml",
-            Fragrances: "Lavender",
-          },
-        },
-      ],
-    },
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
+    variantDetails: { options: [Array], variants: [Array] },
     active: true,
     inStock: true,
     createdAt: 1712657935,
-    updatedAt: 1726910581,
+    updatedAt: 1727763551,
     storeBadges: [],
     keyDetails: [],
-    confirmationMessage: "",
+    confirmationMessage: ''
   },
   {
-    id: "4a5ef464-67fe-4e43-a10b-c57eaeeaaa4f",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lemon Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lemon fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Lemon Fragrance: Fills your home with a zesty, citrus scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural lemon fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Lemon",
+    id: '4a5ef464-67fe-4e43-a10b-c57eaeeaaa4f',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lemon Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lemon fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Lemon Fragrance: Fills your home with a zesty, citrus scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural lemon fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Lemon',
     weight: 0.1,
     price: 159,
     discountedPrice: 150,
     discountPercent: 6,
     images: [
-      "IMAGE/95c72e59-9b18-472b-bcc4-05b428d53f4b/0lsZQZ1oHSZgheHhxd6UZ",
-      "IMAGE/306977d0-7c3b-4917-871a-7fa7c924082e/GynJFOHzdkYGrCIyKns-A",
+      'IMAGE/cb7988fd-ad15-491d-a6fa-dc1d03a66216/yRq1wtps8zvV2ggWC3mTW',
+      'IMAGE/327a3b26-abca-4596-aef6-389e302c6a91/ErYkppuoHcp4F3g48cgqG',
+      'IMAGE/539d37e3-8977-449e-ad9c-878183427d0a/EupTbFkc3WswhHMZuQxGA'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
-    variantDetails: {
-      options: [
-        {
-          name: "Fragrances",
-          displayName: "Fragrance Varieties",
-          values: ["Lemon "],
-        },
-        {
-          name: "Weight/Volume",
-          displayName: "Weights & Volumes",
-          values: ["100ml", "250ml"],
-        },
-      ],
-      variants: [
-        {
-          id: "96a36295-a783-474b-baae-c2910f3c84b6",
-          skuId: "HYKI 003",
-          price: 159,
-          discountedPrice: 150,
-          discountPercent: 6,
-          available: true,
-          imageIds: [
-            "IMAGE/7d22ce84-b1e1-4758-a898-c227e998b239/AKdlc1Nijpmp62IvodQ0-",
-            "IMAGE/6eb99805-8808-4c9a-b168-c39343badea5/JocShLws3rgqC98Ls9E14",
-            "IMAGE/40fc4857-8c08-4c32-8551-04adfff705fb/5MXoYXypyxUBF-p6xGH--",
-            "IMAGE/9e2c8b18-b46b-4bd9-8ea0-33a14410a4a2/-aelp2UzMXUFBxXAOS5Jy",
-          ],
-          mediaIds: [
-            "IMAGE/7d22ce84-b1e1-4758-a898-c227e998b239/AKdlc1Nijpmp62IvodQ0-",
-            "IMAGE/6eb99805-8808-4c9a-b168-c39343badea5/JocShLws3rgqC98Ls9E14",
-            "IMAGE/40fc4857-8c08-4c32-8551-04adfff705fb/5MXoYXypyxUBF-p6xGH--",
-            "IMAGE/9e2c8b18-b46b-4bd9-8ea0-33a14410a4a2/-aelp2UzMXUFBxXAOS5Jy",
-          ],
-          defaultVariant: true,
-          optionValueMap: {
-            Fragrances: "Lemon ",
-            "Weight/Volume": "100ml",
-          },
-        },
-        {
-          id: "3dfd065b-6123-4510-b520-515c246cd6f2",
-          skuId: "",
-          price: 359,
-          discountedPrice: 320,
-          discountPercent: 11,
-          available: true,
-          defaultVariant: false,
-          optionValueMap: {
-            Fragrances: "Lemon ",
-            "Weight/Volume": "250ml",
-          },
-        },
-      ],
-    },
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
+    variantDetails: { options: [Array], variants: [Array] },
     active: true,
     inStock: true,
     createdAt: 1712658285,
-    updatedAt: 1726910610,
+    updatedAt: 1727763613,
     storeBadges: [],
     keyDetails: [],
-    confirmationMessage: "",
+    confirmationMessage: ''
   },
   {
-    id: "8d538bc4-f146-4d64-a437-d47e301f6bab",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Mango Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing mango fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Mango Fragrance: Fills your home with a sweet, tropical scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions: \n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Mango",
+    id: '8d538bc4-f146-4d64-a437-d47e301f6bab',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Mango Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing mango fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Mango Fragrance: Fills your home with a sweet, tropical scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions: \n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Mango',
     weight: 0.1,
     price: 159,
     discountedPrice: 150,
     discountPercent: 6,
     images: [
-      "IMAGE/b85b133d-1e41-4ba4-82a5-8d0a48f27cc4/wA80u-V4Uwp6xUy56LbbB",
-      "IMAGE/ea6f17f2-e9a7-44cc-8c6d-146fd13962c6/7Fn4coPTsRe7vcVAUS4wh",
+      'IMAGE/6ab30cd8-35a9-4506-b48a-e71224cf5d78/BntqiISKiWNU2DdIAG3cN',
+      'IMAGE/57124913-bbcc-4b89-84dc-c7d52fcd9edb/ln2mN-z-oEQ76xq8XxDC8',
+      'IMAGE/0831b0d5-851c-4158-8830-2080999fe361/FKh-JyCnd09LLAwfKazxQ'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
-    variantDetails: {
-      options: [
-        {
-          name: "Weight/Volume",
-          displayName: "Weights & Volumes",
-          values: ["100ml", "250ml"],
-        },
-        {
-          name: "Fragrances",
-          displayName: "Fragrance Varieties",
-          values: ["Mango "],
-        },
-      ],
-      variants: [
-        {
-          id: "eb3599af-21a3-4d0e-b035-930fe3a477bf",
-          skuId: "HYKI 004",
-          price: 159,
-          discountedPrice: 150,
-          discountPercent: 6,
-          available: true,
-          imageIds: [
-            "IMAGE/087cb4f1-738a-42a6-b41a-b11f1b6b16d4/pTK-jnEZ9gl5uEmoT4-VQ",
-            "IMAGE/6b4a8c77-1404-4ef4-baa8-15b4d8cda7a3/W7mT82qmNApRcScmgIh7I",
-            "IMAGE/099fd2ee-0653-4af2-bf0b-2f9857c4899f/-YmnVoqACRX7WLfEFcyZt",
-          ],
-          mediaIds: [
-            "IMAGE/087cb4f1-738a-42a6-b41a-b11f1b6b16d4/pTK-jnEZ9gl5uEmoT4-VQ",
-            "IMAGE/6b4a8c77-1404-4ef4-baa8-15b4d8cda7a3/W7mT82qmNApRcScmgIh7I",
-            "IMAGE/099fd2ee-0653-4af2-bf0b-2f9857c4899f/-YmnVoqACRX7WLfEFcyZt",
-          ],
-          defaultVariant: true,
-          optionValueMap: {
-            "Weight/Volume": "100ml",
-            Fragrances: "Mango ",
-          },
-        },
-        {
-          id: "545e6e4f-2f4c-47f2-a2fb-5413669f5434",
-          skuId: "",
-          price: 359,
-          discountedPrice: 320,
-          discountPercent: 11,
-          available: true,
-          defaultVariant: false,
-          optionValueMap: {
-            "Weight/Volume": "250ml",
-            Fragrances: "Mango ",
-          },
-        },
-      ],
-    },
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
+    variantDetails: { options: [Array], variants: [Array] },
     active: true,
     inStock: true,
     createdAt: 1712656771,
-    updatedAt: 1726910506,
+    updatedAt: 1727763291,
     storeBadges: [],
     keyDetails: [],
-    confirmationMessage: "",
+    confirmationMessage: ''
   },
   {
-    id: "94de5004-8746-4b0b-a8a8-689209cefae4",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Mango Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing mango fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Mango Fragrance: Fills your home with a sweet, tropical scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions: \n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Mango",
+    id: '94de5004-8746-4b0b-a8a8-689209cefae4',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Mango Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing mango fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Mango Fragrance: Fills your home with a sweet, tropical scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions: \n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Mango',
     weight: 0.25,
     price: 359,
     discountedPrice: 320,
     discountPercent: 11,
     images: [
-      "IMAGE/9f3bc640-395e-411a-8131-54e8849bfc79/6h0q8ekrEcZxs7XjB59Kp",
-      "IMAGE/02a9dfd5-0da3-459c-96a1-6b780198a153/MI9ri-h9QXcsjspyr484F",
+      'IMAGE/00ee7fde-002f-49a2-bd72-4a617869f4ab/v4JAtuNCyWXOH2oZP88Y3',
+      'IMAGE/904cb5d5-409c-4367-8ce5-5f5bf5084ae2/J-aInPDqVZ4DuM-4yeH1W',
+      'IMAGE/15fd7d8c-57ed-414f-8045-9d3b1f77a00f/DcJ5Meb1hnbuzdSFyzypk'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
     active: true,
     inStock: true,
     createdAt: 1726831013,
-    updatedAt: 1726900046,
-    storeBadges: [],
+    updatedAt: 1727763773,
+    storeBadges: []
   },
   {
-    id: "b3638375-58f3-436d-a045-cf9ab56d6616",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Sandalwood Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a soothing sandalwood fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nSoothing Sandalwood Fragrance: Fills your home with a warm, earthy scent that lingers and calms.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural sandalwood fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\n\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Sandalwood",
+    id: 'b3638375-58f3-436d-a045-cf9ab56d6616',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Sandalwood Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a soothing sandalwood fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Soothing Sandalwood Fragrance: Fills your home with a warm, earthy scent that lingers and calms.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural sandalwood fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      '\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Sandalwood',
     weight: 0.1,
     price: 159,
     discountedPrice: 150,
     discountPercent: 6,
     images: [
-      "IMAGE/6816cbe2-3980-4fd3-9b4c-3f65e81340ee/pZ3NQkQvs-M7Z-rxLLuqR",
-      "IMAGE/8eb9e03f-f504-4c4a-b142-7751dc67dbf5/GNsUikLqRZ4o3LCCa21NM",
+      'IMAGE/799428df-e24f-4b2d-8db9-14ceee55f9dd/pkbezrSpqzbmrPKhASBjc',
+      'IMAGE/00b84558-6293-47c3-8820-f0d4db47cddc/4a---HpkHh6jWyhqj28JR',
+      'IMAGE/e4e30a98-d58f-4c25-a814-3e3a1f3a0aa6/lPKOsfAdzQWwNLZvvNW2n'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
-    variantDetails: {
-      options: [
-        {
-          name: "Weight/Volume",
-          displayName: "Weights & Volumes",
-          values: ["100ml", "250ml"],
-        },
-        {
-          name: "Fragrances",
-          displayName: "Fragrance Varieties",
-          values: ["Sandalwood"],
-        },
-      ],
-      variants: [
-        {
-          id: "3a98cd41-0cb4-40a3-a920-dc94a93bd658",
-          skuId: "",
-          price: 159,
-          discountedPrice: 150,
-          discountPercent: 6,
-          available: true,
-          imageIds: [
-            "IMAGE/73cdcea3-a45e-419b-a887-f6dd4c7a6919/dLueC0fqIXX6fwtzoCFQm",
-            "IMAGE/740fbd39-2f31-4d2c-8bb9-4dba3d3dd83f/lBscBmv03TeuOUrkd7RDO",
-            "IMAGE/078e71a5-8a53-4ee7-b945-0dbe262357e3/71DS3HnwEOREZGEYXTv5q",
-          ],
-          mediaIds: [
-            "IMAGE/73cdcea3-a45e-419b-a887-f6dd4c7a6919/dLueC0fqIXX6fwtzoCFQm",
-            "IMAGE/740fbd39-2f31-4d2c-8bb9-4dba3d3dd83f/lBscBmv03TeuOUrkd7RDO",
-            "IMAGE/078e71a5-8a53-4ee7-b945-0dbe262357e3/71DS3HnwEOREZGEYXTv5q",
-          ],
-          defaultVariant: true,
-          optionValueMap: {
-            "Weight/Volume": "100ml",
-            Fragrances: "Sandalwood",
-          },
-        },
-        {
-          id: "cbeeccf6-a26d-4d50-bd08-81a94bab8d0c",
-          skuId: "",
-          price: 359,
-          discountedPrice: 320,
-          discountPercent: 11,
-          available: true,
-          imageIds: [
-            "IMAGE/73cdcea3-a45e-419b-a887-f6dd4c7a6919/dLueC0fqIXX6fwtzoCFQm",
-            "IMAGE/740fbd39-2f31-4d2c-8bb9-4dba3d3dd83f/lBscBmv03TeuOUrkd7RDO",
-            "IMAGE/078e71a5-8a53-4ee7-b945-0dbe262357e3/71DS3HnwEOREZGEYXTv5q",
-          ],
-          mediaIds: [
-            "IMAGE/73cdcea3-a45e-419b-a887-f6dd4c7a6919/dLueC0fqIXX6fwtzoCFQm",
-            "IMAGE/740fbd39-2f31-4d2c-8bb9-4dba3d3dd83f/lBscBmv03TeuOUrkd7RDO",
-            "IMAGE/078e71a5-8a53-4ee7-b945-0dbe262357e3/71DS3HnwEOREZGEYXTv5q",
-          ],
-          defaultVariant: false,
-          optionValueMap: {
-            "Weight/Volume": "250ml",
-            Fragrances: "Sandalwood",
-          },
-        },
-      ],
-    },
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
+    variantDetails: { options: [Array], variants: [Array] },
     active: true,
     inStock: true,
     createdAt: 1712658490,
-    updatedAt: 1726910669,
+    updatedAt: 1727763660,
     storeBadges: [],
     keyDetails: [],
-    confirmationMessage: "",
+    confirmationMessage: ''
   },
   {
-    id: "bb58161b-ce11-4e6a-9999-f09cf9579a13",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Jasmine Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing jasmine fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Jasmine Fragrance: Fills your home with a sweet, floral scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural jasmine fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Jasmine",
+    id: 'bb58161b-ce11-4e6a-9999-f09cf9579a13',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Jasmine Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing jasmine fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Jasmine Fragrance: Fills your home with a sweet, floral scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural jasmine fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      '\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Jasmine',
     weight: 0.1,
     price: 159,
     discountedPrice: 150,
     discountPercent: 6,
     images: [
-      "IMAGE/c2428bb6-b169-40a6-b94a-574e01698395/DYX6UYiu5wghMMMoDV0Y0",
-      "IMAGE/f2bdcab8-1cc6-462e-b6d9-fb0c528e744f/S1rrslKEu5FZrkBmffvKT",
+      'IMAGE/2433255a-6170-4455-882d-0ad03bc876ae/mufPyNoefLJkKqVLIKR-M',
+      'IMAGE/fa2eda2e-6f0e-4113-a88e-f8ab4ef43774/PQuRzgh8rUOc-RkkmmjVe',
+      'IMAGE/5fb16942-f962-4513-b8c7-0706a7102b4d/T4P9LC9OcZwq3XcnuP0Nr'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
-    variantDetails: {
-      options: [
-        {
-          name: "Weight/Volume",
-          displayName: "Weights & Volumes",
-          values: ["100ml", "250ml"],
-        },
-        {
-          name: "Fragrances",
-          displayName: "Fragrance Varieties",
-          values: ["Jasmine"],
-        },
-      ],
-      variants: [
-        {
-          id: "a2766f00-2669-47e1-b137-82995f081805",
-          skuId: "HYKI 005",
-          price: 159,
-          discountedPrice: 150,
-          discountPercent: 6,
-          available: true,
-          imageIds: [
-            "IMAGE/f6c1214a-0c19-4e89-8b30-3b26ae78f910/tC8fWKmjQiBjDm-Xkskui",
-            "IMAGE/48826205-a9bf-4ff6-a5a1-67c795e69244/T0bQ2qgcjgYv5cACu2Pdo",
-          ],
-          mediaIds: [
-            "IMAGE/f6c1214a-0c19-4e89-8b30-3b26ae78f910/tC8fWKmjQiBjDm-Xkskui",
-            "IMAGE/48826205-a9bf-4ff6-a5a1-67c795e69244/T0bQ2qgcjgYv5cACu2Pdo",
-          ],
-          defaultVariant: true,
-          optionValueMap: {
-            "Weight/Volume": "100ml",
-            Fragrances: "Jasmine",
-          },
-        },
-        {
-          id: "f9345344-284f-4074-bef7-a7240c1d4993",
-          skuId: "",
-          price: 359,
-          discountedPrice: 320,
-          discountPercent: 11,
-          available: true,
-          defaultVariant: false,
-          optionValueMap: {
-            "Weight/Volume": "250ml",
-            Fragrances: "Jasmine",
-          },
-        },
-      ],
-    },
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
+    variantDetails: { options: [Array], variants: [Array] },
     active: true,
     inStock: true,
     createdAt: 1712657683,
-    updatedAt: 1726910546,
+    updatedAt: 1727763509,
     storeBadges: [],
     keyDetails: [],
-    confirmationMessage: "",
+    confirmationMessage: ''
   },
   {
-    id: "e6157226-d539-4b03-b2e5-d29cda067050",
-    productType: "PHYSICAL",
-    storeId: "3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee",
-    name: "HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lemon Fragrance",
-    description:
-      "HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lemon fragrance. Perfect for every room in your home.\n\nWhy Choose HYKI Magic Floor Cleaner?\n\nDeep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\nRefreshing Lemon Fragrance: Fills your home with a zesty, citrus scent that lingers.\nVersatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\nHealthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\nEconomical & Efficient: A little goes a long way, offering excellent value with every use.\n\nProduct Properties:\n\nSurface disinfectant that removes bad odors and drives away mosquitoes and flies.\nPleasant, natural lemon fragrance.\npH Level: 7, lab-tested for safety.\n\nUsage Instructions:\n\nPrepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\nFor Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\nDilution Ratio: 1:100\nIngredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\nAvailable Sizes: 100ml | 250ml\nFragrance Variety: Lemon",
+    id: 'e6157226-d539-4b03-b2e5-d29cda067050',
+    productType: 'PHYSICAL',
+    storeId: '3fa6b7e1-a8ae-40a9-b8ad-27bd52e87fee',
+    name: 'HYKI Magic Floor Cleaner (Concentrated Phenyl) - Lemon Fragrance',
+    description: 'HYKI Magic Floor Cleaner is a powerful and versatile solution that ensures spotless floors, kills germs, and leaves a refreshing lemon fragrance. Perfect for every room in your home.\n' +
+      '\n' +
+      'Why Choose HYKI Magic Floor Cleaner?\n' +
+      '\n' +
+      'Deep Cleaning Power: Effectively tackles tough dirt and grime, leaving floors immaculate.\n' +
+      'Refreshing Lemon Fragrance: Fills your home with a zesty, citrus scent that lingers.\n' +
+      'Versatile Use: Works on all floor types—tiles, marble, wood—providing flawless results.\n' +
+      'Healthier Environment: Cleans and disinfects, ensuring a germ-free, safe space.\n' +
+      'Economical & Efficient: A little goes a long way, offering excellent value with every use.\n' +
+      '\n' +
+      'Product Properties:\n' +
+      '\n' +
+      'Surface disinfectant that removes bad odors and drives away mosquitoes and flies.\n' +
+      'Pleasant, natural lemon fragrance.\n' +
+      'pH Level: 7, lab-tested for safety.\n' +
+      '\n' +
+      'Usage Instructions:\n' +
+      '\n' +
+      'Prepare Solution: Mix 10-20ml of concentrated phenyl with 1 liter of soft water for future use.\n' +
+      'For Regular Cleaning: Add 5-10 drops of the solution to a bucket of water. Use for mopping floors or cleaning bathrooms.\n' +
+      'Dilution Ratio: 1:100\n' +
+      'Ingredients: Pine Oil, Fragrance, Natural Essential Oils, Aqua\n' +
+      'Available Sizes: 100ml | 250ml\n' +
+      'Fragrance Variety: Lemon',
     weight: 0.25,
     price: 359,
     discountedPrice: 320,
     discountPercent: 11,
     images: [
-      "IMAGE/2d5d0414-0c1e-4c8e-b0e8-c841998016cc/Qdhr38fART2zweUr1Qz-o",
-      "IMAGE/d5db1f17-4a23-42a1-a62e-e71dada2c4d0/decjm6JEQJau9xQ0IOqjZ",
+      'IMAGE/905b09f0-682e-471c-bfbd-215d30b898d6/pgw-YxAqJwmEun-5Xijy6',
+      'IMAGE/f831227a-5f52-4299-b870-c7b407f20f9c/IkxVQymM6NpQtkdguQF3M',
+      'IMAGE/92bd84b9-a315-4daf-9d22-d67e91f0a2e2/SaiyE8afVO8nZ9MBBb5aU'
     ],
     mediaIds: [],
-    badges: ["Recommended"],
-    categories: ["other"],
+    badges: [ 'Recommended' ],
+    categories: [ 'other' ],
     active: true,
     inStock: true,
     createdAt: 1726831097,
-    updatedAt: 1726900091,
-    storeBadges: [],
-  },
+    updatedAt: 1727763844,
+    storeBadges: []
+  }
 ];
