@@ -3,22 +3,15 @@ import Link from "next/link";
 import { BsChevronDown } from "react-icons/bs";
 
 const data = [
-  { id: 1, name: "Home", url: "/" },
-  { id: 2, name: "About", url: "/about" },
-  { id: 3, name: "Products", url: "/product" },
-  { id: 4, name: "Contact", url: "/contact" },
-];
-
-const subMenuData = [
-  { id: 1, name: "Jordan", doc_count: 11 },
-  { id: 2, name: "Sneakers", doc_count: 8 },
-  { id: 3, name: "Running shoes", doc_count: 64 },
-  { id: 4, name: "Football shoes", doc_count: 107 },
+  { id: 1, name: "HOME", url: "/" },
+  { id: 2, name: "ABOUT", url: "/about" },
+  { id: 3, name: "PRODUCTS", url: "/product" },
+  { id: 4, name: "CONTACT", url: "/contact" },
 ];
 
 const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
   return (
-    <ul className="hidden md:flex items-center gap-8 font-medium text-black">
+    <ul className="hidden md:flex items-center gap-8 font-medium text-gray-800 dark:text-gray-200">
       {data.map((item) => {
         return (
           <React.Fragment key={item.id}>
@@ -29,10 +22,10 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                 onMouseLeave={() => setShowCatMenu(false)}
               >
                 {item.name}
-                <BsChevronDown size={14} />
+                <BsChevronDown size={14} className="text-gray-600 dark:text-gray-400" />
 
                 {showCatMenu && (
-                  <ul className="bg-white absolute top-6 left-0 min-w-[250px] px-1 py-1 text-black shadow-lg">
+                  <ul className="bg-white absolute top-6 left-0 min-w-[250px] px-1 py-1 text-black shadow-lg dark:bg-gray-800 dark:text-gray-200">
                     {categories?.map(({ attributes: c, id }) => {
                       return (
                         <Link
@@ -40,7 +33,7 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                           href={`/category/${c.slug}`}
                           onClick={() => setShowCatMenu(false)}
                         >
-                          <li className="h-12 flex justify-between items-center px-3 hover:bg-black/[0.03] rounded-md">
+                          <li className="h-12 flex justify-between items-center px-3 hover:bg-gray-200 rounded-md dark:hover:bg-gray-700">
                             {c.name}
                             <span className="opacity-50 text-sm">
                               {`(${c.products.data.length})`}
@@ -53,8 +46,12 @@ const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
                 )}
               </li>
             ) : (
-              <li className="cursor-pointer">
-                <Link href={item?.url}>{item.name}</Link>
+              <li className="cursor-pointer group">
+                <Link href={item?.url}>
+                  <span className="transition-colors duration-300 ease-in-out group-hover:bg-blue-500 dark:group-hover:bg-blue-700 rounded-md px-3 py-2 hover:text-white dark:hover:text-white">
+                    {item.name}
+                  </span>
+                </Link>
               </li>
             )}
           </React.Fragment>
