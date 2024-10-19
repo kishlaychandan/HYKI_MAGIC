@@ -3,6 +3,7 @@ import HeroBanner from "@/components/HeroBanner";
 import ProductCard from "@/components/ProductCard";
 import Wrapper from "@/components/Wrapper";
 import { data } from "@/utils/apidata";
+import ChatBots from "@/components/ChatBot/ChatBots";
 
 export default function Home() {
   const [filters, setFilters] = useState({
@@ -44,6 +45,7 @@ export default function Home() {
             All Products
           </div>
         </div>
+        {/* <ChatBots /> */}
 
         {/* Filters Section */}
         <div className="flex flex-col md:flex-row justify-between my-5 p-5 bg-gray-100 rounded-lg shadow-md">

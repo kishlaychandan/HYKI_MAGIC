@@ -4,6 +4,7 @@ import Head from "next/head";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
+import ChatBots from "@/components/ChatBot/ChatBots";
 
 export default function App({ Component, pageProps }) {
   return (
@@ -27,6 +28,7 @@ export default function App({ Component, pageProps }) {
         <ThemeProvider enableSystem={true} attribute="class">
           <Header />
           <Component {...pageProps} />
+          <ChatBots />
           <Footer />
         </ThemeProvider>
     </>

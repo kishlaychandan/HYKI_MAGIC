@@ -1,3 +1,4 @@
+import ChatBots from "@/components/ChatBot/ChatBots";
 import React from "react";
 
 const About = () => {
@@ -8,7 +9,7 @@ const About = () => {
           Welcome to Kamakhya Enterprises
         </h2>
       </header> */}
-
+      {/* <ChatBots /> */}
       <section className="flex-1 flex items-center justify-center bg-white dark:bg-gray-800 p-12 shadow-lg transition-colors duration-300">
         <div className="max-w-4xl text-center">
           <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-white">

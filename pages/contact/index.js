@@ -1,9 +1,11 @@
+import ChatBots from "@/components/ChatBot/ChatBots";
 import React from "react";
 import { FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 
 const Contact = () => {
   return (
     <div className="bg-gray-100 dark:bg-gray-900 min-h-screen flex flex-col transition-colors duration-300">
+      {/* <ChatBots /> */}
       <section className="flex-1 flex items-center justify-center bg-white dark:bg-gray-800 p-6 md:p-12 shadow-lg transition-colors duration-300">
         <div className="max-w-4xl w-full text-center">
           <h2 className="text-3xl font-semibold mb-6 text-gray-900 dark:text-white">
