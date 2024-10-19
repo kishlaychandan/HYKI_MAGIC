@@ -37,7 +37,7 @@ const HeroBanner = () => {
                             alt={`Banner ${index + 1}`}
                             className="w-full h-full object-contain"
                         />
-                        <div className="absolute bottom-6 left-4 md:bottom-10 md:left-10 bg-white px-4 py-2 md:px-8 md:py-4 font-oswald text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90">
+                        <div className="absolute bottom-6 left-1 md:bottom-10 md:left-5 bg-white px-4 py-2 md:px-8 md:py-4 font-oswald text-black/[0.9] text-[15px] md:text-[30px] uppercase font-medium cursor-pointer hover:opacity-90">
                             <Link href="https://hyki.mini.store" target="_blank" rel="noopener noreferrer">
                                 Shop now
                             </Link>
