@@ -34,7 +34,7 @@ function ChatBots() {
         {
             id: 'issues',
             options: [
-                { value: 'AboutHyki', label: 'About Kamakhya Enterprises, Hyki', trigger: 'AboutHyki' },
+                { value: 'AboutHyki', label: 'About Kamakhya Enterprises ?', trigger: 'AboutHyki' },
                 { value: 'PaymentMethods', label: 'How to do Payment?', trigger: 'PaymentMethods' },
                 { value: 'PlatformsAvailable', label: 'Platforms Available', trigger: 'PlatformsAvailable' },
                 { value: 'FragranceOptions', label: 'Fragrances varities?', trigger: 'FragranceOptions' }
