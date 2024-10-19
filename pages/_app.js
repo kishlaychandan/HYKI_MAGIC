@@ -5,7 +5,7 @@ import Footer from "@/components/Footer";
 import { ThemeProvider } from "next-themes";
 import ChatBots from "@/components/ChatBot/ChatBots";
 import Link from "next/link";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaPhone } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 export default function App({ Component, pageProps }) {
   return (
@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
         <Header />
         <Component {...pageProps} />
         <ChatBots />
-        <div className=" flex items-center justify-center gap-4  fixed mb-2 bottom-0 left-[38%] sm:left-[48%] p-2">
+        <div className=" flex items-center justify-center gap-4  fixed mb-2 bottom-0 left-[30%] sm:left-[45%] p-2">
           <Link
           // insta account: hyki.kmk
             href="https://www.instagram.com/hyki.kmk"
@@ -38,12 +38,21 @@ export default function App({ Component, pageProps }) {
           >
             <FaInstagram size={24} />
           </Link>
+          {/* //call */}
+          <Link
+            href="tel:7026202925"
+            className="w-10 h-10 bg-blue-600 hover:bg-blue-400 text-white rounded-full flex items-center justify-center   cursor-pointer"
+          >
+            <FaPhone size={24} />
+          </Link>
           <Link
             href="https://wa.me/7026202925"
             className="w-10 h-10 bg-green-600 hover:bg-green-400 text-white rounded-full flex items-center justify-center   cursor-pointer"
           >
             <FaWhatsapp size={24} />
           </Link>
+
+          
         </div>
         <Footer />
       </ThemeProvider>
