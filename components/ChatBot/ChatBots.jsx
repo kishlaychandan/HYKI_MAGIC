@@ -10,7 +10,6 @@ function ChatBots() {
     const toggleChatBot = () => {
         setIsOpen(!isOpen);
     };
-
     const steps = [
         {
             id: 'Greet',
