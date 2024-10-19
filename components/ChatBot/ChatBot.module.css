@@ -13,7 +13,7 @@
     /* background-color: red; */
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content:flex-end;
     color: white;
     padding: 10px;
   }
