@@ -30,7 +30,7 @@ export default function App({ Component, pageProps }) {
         <Header />
         <Component {...pageProps} />
         <ChatBots />
-        <div className=" flex items-center justify-center gap-5  fixed mb-2 bottom-0 left-[30%] sm:left-[45%] p-2">
+        <div className=" flex items-center justify-center gap-4  fixed mb-2 bottom-0 left-[27%] sm:left-[45%] p-2">
           <Link
           // insta account: hyki.kmk
             href="https://www.instagram.com/hyki.kmk"
