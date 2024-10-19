@@ -30,17 +30,17 @@ export default function App({ Component, pageProps }) {
         <Header />
         <Component {...pageProps} />
         <ChatBots />
-        <div className=" flex items-center justify-center gap-6  fixed mb-3 bottom-0 left-[48%] p-2">
+        <div className=" flex items-center justify-center gap-4  fixed mb-3 bottom-0 left-[48%] p-2">
           <Link
           // insta account: hyki.kmk
             href="https://www.instagram.com/hyki.kmk"
-            className="w-10 h-10 bg-red-600 text-white  rounded-full  flex items-center justify-center  cursor-pointer"
+            className="w-10 h-10 bg-red-600 hover:bg-red-500 text-white  rounded-full  flex items-center justify-center  cursor-pointer"
           >
             <FaInstagram size={24} />
           </Link>
           <Link
             href="https://wa.me/7026202925"
-            className="w-10 h-10 bg-green-600 text-white rounded-full flex items-center justify-center   cursor-pointer"
+            className="w-10 h-10 bg-green-600 bg-green-400 text-white rounded-full flex items-center justify-center   cursor-pointer"
           >
             <FaWhatsapp size={24} />
           </Link>
