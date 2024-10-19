@@ -34,7 +34,7 @@ export default function App({ Component, pageProps }) {
           <Link
           // insta account: hyki.kmk
             href="https://www.instagram.com/hyki.kmk"
-            className="w-10 h-10 bg-blue-700 text-white  rounded-full  flex items-center justify-center  cursor-pointer"
+            className="w-10 h-10 bg-red-600 text-white  rounded-full  flex items-center justify-center  cursor-pointer"
           >
             <FaInstagram size={24} />
           </Link>
