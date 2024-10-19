@@ -6,6 +6,7 @@ import {
   FaYoutube,
   FaInstagram,
   FaFacebook,
+  FaWhatsapp,
 } from "react-icons/fa";
 import Wrapper from "./Wrapper";
 
@@ -64,19 +65,19 @@ const Footer = () => {
             <FaFacebook size={20} />
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://wa.me/7026202925"
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
           >
-            <FaTwitter size={20} />
+            <FaWhatsapp size={20} />
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://youtube.com/@hyky8888?si=vkBMaTghD__5lQIo"
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
           >
             <FaYoutube size={20} />
           </Link>
           <Link
-            href="https://twitter.com"
+            href="https://www.instagram.com/hyki.kmk"
             className="w-10 h-10 rounded-full bg-white/[0.25] flex items-center justify-center text-black hover:bg-white/[0.5] cursor-pointer"
           >
             <FaInstagram size={20} />
