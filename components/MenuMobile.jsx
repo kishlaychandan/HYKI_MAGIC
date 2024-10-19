@@ -7,6 +7,7 @@ const data = [
     { id: 2, name: "About", url: "/about" },
     { id: 3, name: "Products", url: "/product" }, // Changed from Categories to Products
     { id: 4, name: "Contact", url: "/contact" },
+    { id: 5, name: "TESTIMONIALS", url: "/testimonials" },
 ];
 
 const MenuMobile = ({ setMobileMenu }) => {

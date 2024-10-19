@@ -7,6 +7,8 @@ const data = [
   { id: 2, name: "ABOUT", url: "/about" },
   { id: 3, name: "PRODUCTS", url: "/product" },
   { id: 4, name: "CONTACT", url: "/contact" },
+  { id: 5, name: "TESTIMONIALS", url: "/testimonials" },
+
 ];
 
 const Menu = ({ showCatMenu, setShowCatMenu, categories }) => {
