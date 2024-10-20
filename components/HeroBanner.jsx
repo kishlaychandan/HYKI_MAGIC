@@ -8,6 +8,7 @@ const HeroBanner = () => {
     return (
         <div className="relative w-full max-w-[1350px] mx-auto">
             <Carousel
+            
                 autoPlay={true}
                 infiniteLoop={true}
                 showThumbs={false}
