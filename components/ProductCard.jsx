@@ -14,7 +14,7 @@ const ProductCard = ({ data: p }) => {
         // src={`https://minis-media-assets.swiggy.com/swiggymini/image/upload/w_1024,h_1024,c_fit,fl_lossy,q_auto:eco,f_auto/${p?.images[0]}`}
         alt={p?.name}
       /> */}
-      <img src={`https://minis-media-assets.swiggy.com/swiggymini/image/upload/w_1024,h_1024,c_fit,fl_lossy,q_auto:eco,f_auto/${p.images[0]}`} alt="img is there" />
+      <img src={`https://minis-media-assets.swiggy.com/swiggymini/image/upload/w_1024,h_1024,c_fit,fl_lossy,q_auto:eco,f_auto/${p.images[0]}`} alt="floor cleaner" />
       
       <div className="p-4 text-black/[0.9]">
         <h2 className="text-lg font-medium">{p?.name}</h2>
