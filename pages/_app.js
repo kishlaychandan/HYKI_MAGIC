@@ -20,7 +20,7 @@ export default function App({ Component, pageProps }) {
         />
         <meta
           name="keywords"
-          content="HYKI Magic Floor Cleaner, floor cleaner, Kamakhya Enterprises, chemical manufacturer, Bannerghatta Karnataka, powerful cleaning, hygienic floor cleaner, multi-surface cleaner"
+          content="HYKI Magic Floor Cleaner,hyki, hyki bengaluru, floor cleaner, Kamakhya Enterprises, chemical manufacturer, Bannerghatta Karnataka, powerful cleaning, hygienic floor cleaner, multi-surface cleaner"
         />
         <meta name="author" content="Kamakhya Enterprises" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
